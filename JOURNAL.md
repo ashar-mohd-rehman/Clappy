@@ -32,3 +32,26 @@ I then went and placed my matrix components and assigned global labels, Then I w
 <img width="1870" height="1202" alt="Screenshot 2026-10-19 203840" src="https://github.com/user-attachments/assets/dc781bec-c65c-4013-9337-ab39b1e0530a" />
 
 **Total Time Spent : 2h**
+
+#2 Finished Schematic and Assigned Footprints
+
+So I added the rotary encoder symbol onto the sheet and added global labels to the points like A, B, and SW also Connected the Ground to GND power symbol 
+
+I then also added a oled symbol, and did the same, That is adding global labels to the points on the symbol
+
+Then I connected those global labels to the xiao 
+<img width="1405" height="831" alt="Screenshot 2026-10-19 213204" src="https://github.com/user-attachments/assets/e7e84c0a-5027-4b97-adf1-1d876eb3a135" />
+
+After that I ran DRC and got two errors 
+ <img width="1079" height="630" alt="Screenshot 2026-10-19 213349" src="https://github.com/user-attachments/assets/b39ece0d-1fa7-43f4-8e2b-2bb9b8b74552" />
+
+So I got confused and asked gemini about and gemini said to lowkey chill so I am gonna do that 
+
+<img width="1352" height="257" alt="Screenshot 2026-10-19 213815" src="https://github.com/user-attachments/assets/49a78fc0-5ef1-4145-a56c-ff34fffeae10" />
+
+After that I moved onto assigning footprints, And did that. Assigning footprints for diodes and switches were easy coz they were already their <img width="1153" height="579" alt="image" src="https://github.com/user-attachments/assets/1017abbe-42f5-4019-84aa-304aa921a8ed" />
+But I couldnt find the footprints of other components like the xiao and oled
+
+So i went onto the internet and downloaded them and then assigned them <img width="1232" height="318" alt="image" src="https://github.com/user-attachments/assets/a9cb753d-7ad4-446f-87cb-16024cef891e" />
+
+**Total Time Spent : 1h**
