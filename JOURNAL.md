@@ -55,3 +55,55 @@ But I couldnt find the footprints of other components like the xiao and oled
 So i went onto the internet and downloaded them and then assigned them <img width="1232" height="318" alt="image" src="https://github.com/user-attachments/assets/a9cb753d-7ad4-446f-87cb-16024cef891e" />
 
 **Total Time Spent : 1h**
+
+# 3 Finished PCB 
+So I started by marking sw1's corner as origin point 
+<img width="113" height="84" alt="Screenshot 2026-10-21 173814" src="https://github.com/user-attachments/assets/ac84468e-c666-4dd7-bbae-c357ecfaea65" />
+Then using position using reference tool I aligned all my switches into a grid spaced the standard 19.05 mm
+
+But then after aliging the switches I decided to align the oled display until when I notices that it doesnt have 4 pins but many that meant it wasnt accurate to my schematic 
+<img width="974" height="413" alt="Screenshot 2026-10-21 174011" src="https://github.com/user-attachments/assets/62893581-b6e9-419e-8ea1-7c0284739b2a" />
+So then I went to to download the correct footprint on the internet, 
+I searched and stumbled upon this website withe the footpirnt https://www.snapeda.com/parts/OLED%20128x64%201.3%22%20I2C/UNIVERSAL-SOLDER%20Electronics%20Ltd/view-part/?welcome=home
+
+<img width="938" height="1032" alt="Screenshot 2026-10-21 174219" src="https://github.com/user-attachments/assets/dedd67bf-7e06-463e-9d25-6154582cf73b" />
+
+So then I downloaded it and saved in ina folder called OLED.pretty because it was a .mod file which kicad doesnt accept anymore as standalone footprints
+<img width="1090" height="222" alt="Screenshot 2026-10-21 174419" src="https://github.com/user-attachments/assets/9d8e5ec4-f246-42cd-b30e-64daa29a4222" />
+
+WHICH DID NOT WORK IDK WHY BRO, I couldnt find it in assigning footprints
+
+So then I went and opened the footprint editor I imported the .mod file and saved it into my existing Libraries which I had created earlier <img width="1158" height="637" alt="Screenshot 2026-10-21 174710" src="https://github.com/user-attachments/assets/80d9d8dc-2453-4795-a072-c04fee734cd7" />
+
+After doing this I actually found it this time while assiging footprints 
+
+<img width="1765" height="614" alt="Screenshot 2026-10-21 174806" src="https://github.com/user-attachments/assets/e6d06afa-ddd0-437d-a81a-f94eedbea2dc" />
+
+So I added that yep 
+
+But then I realised my switches were upside down which meant that the hop swap sockets would be soldered to the front and the switches would go back WHICH I OFCOURSE DIDNT want 
+<img width="568" height="516" alt="Screenshot 2026-10-21 174925" src="https://github.com/user-attachments/assets/c2e2d65e-e36d-40b4-9b06-47ae2bd2a7df" />
+
+So I Deleted all my components, and did "update pcb from schematuic" Then I flipped the switches to the backside and then places the diodes.
+
+I then found the most optimal place for the oled and the xiao which i then aligned
+
+After that I routed all my matrix and matrix to my xiao. Then rotary encoder to my xiao and my oled too. 
+
+After that I created a ground pour on the bottom layer basically it lets me not route the gnd points and the entire space left on the backside becomes active gnd net so I did that 
+
+<img width="1111" height="736" alt="Screenshot 2026-10-21 175917" src="https://github.com/user-attachments/assets/dca71d88-c219-4b70-a82b-55c10685f240" />
+
+I then also created a pour on the first layer which wasnt connected to anything only for aesthetic reasons lol
+
+<img width="1009" height="668" alt="Screenshot 2026-10-21 175922" src="https://github.com/user-attachments/assets/a57a826b-08d1-458c-a691-225403d36520" />
+
+Then I ran drc and idk how but we got zero errors YIPPEEEEEEEE 
+
+<img width="175" height="61" alt="Screenshot 2026-10-21 180038" src="https://github.com/user-attachments/assets/fcde3868-0d6c-4e44-92f2-52b57512c81e" />
+
+and heres how my pcb looks in 3D. In the next journal Ill be adding 3d models of switches, Xiao and oled and the rotary encoder 
+
+<img width="1179" height="715" alt="Screenshot 2026-10-21 180021" src="https://github.com/user-attachments/assets/b1ba9bf2-a856-478a-adee-2aba0694703b" />
+
+**Total Time Spent : 1.5h**
