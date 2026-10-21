@@ -33,7 +33,7 @@ I then went and placed my matrix components and assigned global labels, Then I w
 
 **Total Time Spent : 2h**
 
-#2 Finished Schematic and Assigned Footprints
+# 2 Finished Schematic and Assigned Footprints
 
 So I added the rotary encoder symbol onto the sheet and added global labels to the points like A, B, and SW also Connected the Ground to GND power symbol 
 
