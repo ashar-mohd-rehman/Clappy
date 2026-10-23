@@ -2,7 +2,7 @@ Project Name : Clappy
 
 Description : A macropad with 8 keys, volume knob and a display. Controlled by Xiao Rp2040 devboard and kmk firmware
 
-Total Time : 
+Total Time : 7 Hours
 
 # 1 Ideation and Matrix 
 I really like minecraft pvp, But switching to hotbar with scroll wheel is not very precise and loses time, 
@@ -161,3 +161,17 @@ after the case was done I started renderin <img width="1431" height="768" alt="S
 case photo <img width="1655" height="988" alt="Screenshot 2026-10-23 175459" src="https://github.com/user-attachments/assets/ed88f537-b247-4e08-8400-d7a1d4d88ddd" />
 
 **Total Time Spent: 2h**
+
+# 5 Made the BOM and Firmware
+
+So I uploaded my gerbers on jlcpcb to get quotes for my pcb fabrication 
+<img width="1905" height="1303" alt="Screenshot 2026-10-23 183105" src="https://github.com/user-attachments/assets/974fb602-1548-445f-854e-d4d4d9c9283f" />
+
+And then I made the BOM adding components one by one, searching em up on robu and converting INR to usd
+<img width="2443" height="922" alt="Screenshot 2026-10-23 183251" src="https://github.com/user-attachments/assets/1d05d156-79ff-445b-bbc0-4655bf58a2c4" />
+
+after that I wrote the readme <img width="1853" height="1144" alt="Screenshot 2026-10-23 184244" src="https://github.com/user-attachments/assets/9a84d38a-77ad-4ddd-88ad-d0c207a1fd89" />
+
+and asked geminui to generate me the kmk firmware in the form of main.py based on my schematic <img width="1324" height="1057" alt="image" src="https://github.com/user-attachments/assets/e9cddb74-d9b0-4d73-b30e-ea9b0f7ee906" />
+
+**Total Time Spent: 30 minutes**
