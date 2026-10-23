@@ -110,7 +110,7 @@ and heres how my pcb looks in 3D. In the next journal Ill be adding 3d models of
 
 **Total Time Spent : 1.5h**
 
-# 4 Designed the case and Firmware
+# 4 Designed the case 
 
 So I started by uploading models onto my pcb coz earliear it was looking  a bit naked ngl
 
@@ -146,4 +146,18 @@ I then added mounting holes onto my pcb <img width="1438" height="871" alt="Scre
 
 And heres how my final pcb be lookin <img width="1188" height="733" alt="Screenshot 2026-10-21 193333" src="https://github.com/user-attachments/assets/eed3cba3-5605-4932-9203-a20e07fdf940" />
 
-**Total Time Spent: 1h**
+then I uploaded the pcb model onto my fusion360 <img width="1715" height="817" alt="Screenshot 2026-10-23 173336" src="https://github.com/user-attachments/assets/6ed99758-4d65-402c-aa59-f7eb28fd91ae" />
+
+after that I started creating my case and created the bottom case lol <img width="2149" height="1111" alt="Screenshot 2026-10-23 173235" src="https://github.com/user-attachments/assets/27b9366f-fbe4-4c16-92b2-b828f8f4b771" />
+
+Then I started making the top case by making holes for my components and all. 
+<img width="1442" height="929" alt="Screenshot 2026-10-23 173843" src="https://github.com/user-attachments/assets/1c4427af-35e0-42e0-84d2-fd5e65deb59a" />
+
+
+I the used rectangular pattern to duplicate the switch holes but realised that it couldnt be done for the bottom row as it has a rotary encoder hole already so i had to seperate my rectangular patter into  3 parts lol <img width="1277" height="822" alt="Screenshot 2026-10-23 174229" src="https://github.com/user-attachments/assets/986e3beb-4ea6-41b7-a4f4-a947e4b74cb1" />
+
+after the case was done I started renderin <img width="1431" height="768" alt="Screenshot 2026-10-23 175338" src="https://github.com/user-attachments/assets/45a2f3e4-db36-40af-8105-ada8d1e381d5" />
+
+case photo <img width="1655" height="988" alt="Screenshot 2026-10-23 175459" src="https://github.com/user-attachments/assets/ed88f537-b247-4e08-8400-d7a1d4d88ddd" />
+
+**Total Time Spent: 2h**
