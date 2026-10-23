@@ -145,3 +145,5 @@ And then the oled display <img width="1237" height="766" alt="Screenshot 2026-10
 I then added mounting holes onto my pcb <img width="1438" height="871" alt="Screenshot 2026-10-21 193318" src="https://github.com/user-attachments/assets/367e155f-f305-4a0e-ba0d-280f0012af20" />
 
 And heres how my final pcb be lookin <img width="1188" height="733" alt="Screenshot 2026-10-21 193333" src="https://github.com/user-attachments/assets/eed3cba3-5605-4932-9203-a20e07fdf940" />
+
+**Total Time Spent: 1h**
