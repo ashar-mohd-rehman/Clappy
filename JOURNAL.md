@@ -1,5 +1,7 @@
 Project Name : Clappy
+
 Description : A macropad with 8 keys, volume knob and a display. Controlled by Xiao Rp2040 devboard and kmk firmware
+
 Total Time : 
 
 # 1 Ideation and Matrix 
@@ -107,3 +109,39 @@ and heres how my pcb looks in 3D. In the next journal Ill be adding 3d models of
 <img width="1179" height="715" alt="Screenshot 2026-10-21 180021" src="https://github.com/user-attachments/assets/b1ba9bf2-a856-478a-adee-2aba0694703b" />
 
 **Total Time Spent : 1.5h**
+
+# 4 Designed the case and Firmware
+
+So I started by uploading models onto my pcb coz earliear it was looking  a bit naked ngl
+
+I googled the models and downloaded them from grabcad like <img width="2252" height="1419" alt="Screenshot 2026-10-21 190640" src="https://github.com/user-attachments/assets/2582849b-fc25-4a5e-b0cf-3add6d085cfe" />
+
+I then went into footprint editor> selected my footprint for switches and went into properties> 3d model and uploaded ts <img width="969" height="969" alt="Screenshot 2026-10-21 191238" src="https://github.com/user-attachments/assets/7527a3b2-9b22-475c-86d7-8f4c168f1459" />
+
+I then arranged it 
+
+<img width="502" height="533" alt="Screenshot 2026-10-21 191324" src="https://github.com/user-attachments/assets/4acfef60-0893-40be-9a58-91eab70937d3" />
+
+But looking at 3d model of my pcb it wasnt showing idk why?
+<img width="988" height="635" alt="Screenshot 2026-10-21 191505" src="https://github.com/user-attachments/assets/c885049d-cfea-4271-9d85-2fda31036d3b" />
+
+So I decided to add 3d models one by one onto the footprints on my pcb one by one <img width="1165" height="794" alt="Screenshot 2026-10-21 192001" src="https://github.com/user-attachments/assets/3f8c32ad-74f6-4ce1-a7fb-5e3836ddb7de" />
+<img width="1177" height="896" alt="Screenshot 2026-10-21 192226" src="https://github.com/user-attachments/assets/44eaefc4-5111-4a09-93d9-34673a5fbd1c" />
+
+I was doing good until I realized I had made a grave mistake, I embedded the switches in too deep 
+so This was how it was supposed to look <img width="780" height="635" alt="Screenshot 2026-10-21 192332" src="https://github.com/user-attachments/assets/dd7bdf50-ed32-46ef-a223-18223761b7d3" />
+
+This lead to a huge height difference <img width="1069" height="446" alt="Screenshot 2026-10-21 192344" src="https://github.com/user-attachments/assets/0282fe3f-cf68-41e4-b6cd-f58961c66675" />
+
+So i went back and fixed each one of em <img width="1506" height="836" alt="Screenshot 2026-10-21 192619" src="https://github.com/user-attachments/assets/0249d7a2-9126-48ef-ba77-b64f69324bcb" />
+
+Then I added the rotary encoder model <img width="1281" height="981" alt="Screenshot 2026-10-21 192642" src="https://github.com/user-attachments/assets/60ed21b7-7ea7-4864-b3a9-19cb1de3e854" />
+and arranged it 
+
+<img width="999" height="616" alt="Screenshot 2026-10-21 192740" src="https://github.com/user-attachments/assets/90ecaba2-19f5-49d6-9ced-c86eb3c23401" />
+
+And then the oled display <img width="1237" height="766" alt="Screenshot 2026-10-21 192925" src="https://github.com/user-attachments/assets/1333189d-4b83-4f74-88d8-529f1523a1fa" />
+
+I then added mounting holes onto my pcb <img width="1438" height="871" alt="Screenshot 2026-10-21 193318" src="https://github.com/user-attachments/assets/367e155f-f305-4a0e-ba0d-280f0012af20" />
+
+And heres how my final pcb be lookin <img width="1188" height="733" alt="Screenshot 2026-10-21 193333" src="https://github.com/user-attachments/assets/eed3cba3-5605-4932-9203-a20e07fdf940" />
